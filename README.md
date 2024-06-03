@@ -75,9 +75,9 @@ The News Feed App is structured as follows:
    - Handles swipe gestures to trigger news fetch operation.
 
 ## Features
-**Custom Swipe Control:** Implemented a custom swipe button that fetches news when swiped to a specific area.
-**Data Fetching with useSWR:** Efficiently fetches and caches news data from a public API.
-**Responsive UI:** Ensures a user-friendly interface with smooth performance.
+-**Custom Swipe Control:** Implemented a custom swipe button that fetches news when swiped to a specific area.
+-**Data Fetching with useSWR:** Efficiently fetches and caches news data from a public API.
+-**Responsive UI:** Ensures a user-friendly interface with smooth performance.
 
 ## Congratulations! :tada:
 
