@@ -55,6 +55,30 @@ Now that you have successfully run the app, let's modify it.
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
+## Application Architecture
+The News Feed App is structured as follows:
+
+1. **App.tsx:** The entry point of the application.
+2. **src/components/NewsFeed.tsx:** Contains the NewsFeed component that fetches and displays the news articles.
+3. **src/components/SwipeButton.tsx:** Contains the SwipeButton component which is a custom swipe control to fetch news.
+4. **styles:** Styling for the application components using StyleSheet.
+
+## Core Components
+1. **App.tsx:**
+   - Sets up the main container and renders the NewsFeed component.
+2. **NewsFeed.tsx:**
+   - Uses useSWR for fetching news data from a public API.
+   - Manages the state to display news articles.
+   - Contains the SwipeButton component to trigger news fetching.
+3. **SwipeButton.tsx:**
+   - Custom swipe control component.
+   - Handles swipe gestures to trigger news fetch operation.
+
+## Features
+**Custom Swipe Control:** Implemented a custom swipe button that fetches news when swiped to a specific area.
+**Data Fetching with useSWR:** Efficiently fetches and caches news data from a public API.
+**Responsive UI:** Ensures a user-friendly interface with smooth performance.
+
 ## Congratulations! :tada:
 
 You've successfully run and modified your React Native App. :partying_face:
