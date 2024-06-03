@@ -11,7 +11,7 @@ const NewsFeed: React.FC = () => {
 
   // Using useSWR to fetch news data from the API. Here used newsapi.org to fetch news with help of API key
   const { data, error } = useSWR(
-    'https://newsapi.org/v2/top-headlines?country=us&apiKey=d643da2e83dd46bbbea7394653bdc9b6',
+    'https://newsapi.org/v2/top-headlines?country=in&apiKey=d643da2e83dd46bbbea7394653bdc9b6',
     fetcher
   );
 
